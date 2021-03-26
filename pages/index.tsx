@@ -1,7 +1,7 @@
 import NavBar from "../componentes/NavBar";
 import Footer from "../componentes/Footer";
 
-function HomePage() {
+const HomePage = (): any => {
 	return (
 		<>
 			<NavBar />
@@ -9,6 +9,6 @@ function HomePage() {
 			<Footer />
 		</>
 	);
-}
+};
 
 export default HomePage;
