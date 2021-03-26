@@ -5,7 +5,7 @@ function HomePage() {
 	return (
 		<>
 			<NavBar />
-			<div>Welcome to Next.js! </div>
+			<div>Welcome to Next.js! helloworld</div>
 			<Footer />
 		</>
 	);
