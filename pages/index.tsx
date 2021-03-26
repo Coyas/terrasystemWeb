@@ -1,14 +1,14 @@
-import NavBar from "../componentes/NavBar";
-import Footer from "../componentes/Footer";
+import Layout from "../componentes/Layout";
 
-function HomePage() {
+const HomePage = (): any => {
 	return (
-		<>
-			<NavBar />
-			<div>Welcome to Next.js! helloworld</div>
-			<Footer />
-		</>
+		<Layout>
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, dolore
+			ad perferendis in id molestiae natus, omnis pariatur mollitia, nesciunt
+			magnam quam? Natus facere, placeat dolorum praesentium aliquam deserunt
+			repudiandae?
+		</Layout>
 	);
-}
+};
 
 export default HomePage;
