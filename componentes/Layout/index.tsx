@@ -4,7 +4,7 @@ import Footer from "../Footer";
 
 const Layout = ({ children }): any => {
 	return (
-		<div className="bg-red-800">
+		<div>
 			{/* title e metatags do site */}
 			<Head>
 				<title>KriolStock</title>
