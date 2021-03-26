@@ -4,7 +4,7 @@ import Footer from "../Footer";
 
 const Layout = ({ children }): any => {
 	return (
-		<div>
+		<div className="bg-red-800">
 			{/* title e metatags do site */}
 			<Head>
 				<title>KriolStock</title>
@@ -19,7 +19,7 @@ const Layout = ({ children }): any => {
 			</Head>
 			{/* navbar */}
 			<NavBar />
-			<div className="">{children}</div>
+			<div className="w-full">{children}</div>
 			{/* volte ao inicio da tella */}
 			{/* <Flexa /> */}
 			{/* rodapé/footer */}
