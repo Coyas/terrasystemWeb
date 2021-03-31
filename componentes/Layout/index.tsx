@@ -7,7 +7,7 @@ const Layout = ({ children }): any => {
 		<div>
 			{/* title e metatags do site */}
 			<Head>
-				<title>KriolStock</title>
+				<title>TerraSystem</title>
 				{/* <script
             src="https://kit.fontawesome.com/e81c075ac3.js"
             crossOrigin="anonymous"
